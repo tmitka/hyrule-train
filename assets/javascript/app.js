@@ -30,6 +30,10 @@ var config = {
       database.ref().push(newTrain);
   };
   //create helper function to handle adding child elements, eventually appending them onto the page
+  /*
+  //-------------------------------------------------------------------------------
+  //-------------------------------------------------------------------------------
+  //gonna restart some of this code and work my way back from the beginning. most of this was imported through old assignments/activities, will take it slower
   function childAdded() {
       database.ref().on("child_added", function (childSnapshot) {
           var trainName = childSnapshot.val().name;
